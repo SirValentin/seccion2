@@ -1,0 +1,48 @@
+.container-login{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/Imagen\ Background\ para\ login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(62, 62, 62, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{    
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 6px;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+.h1-login{
+    color: #f2f2f2;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.input-login{
+    padding: 15px;
+    font-size: 14px;
+    background-color: #3e3e3e;
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    border: none;
+    width: 266px;
+    outline: none;
+}
+.btn-login{
+    padding: 15px 0;
+    color: rgb(255, 255, 255, 0.5);
+    border-radius: 6px;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    background: none;
+    cursor: pointer;
+    margin: 30px 0;
+}
