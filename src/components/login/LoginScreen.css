@@ -24,7 +24,8 @@
     color: #f2f2f2;
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    margin-top: 30px;
 }
 .input-login{
     padding: 15px;
@@ -34,7 +35,7 @@
     border-radius: 6px;
     margin-bottom: 25px;
     border: none;
-    width: 266px;
+    width: 366px;
     outline: none;
 }
 .btn-login{
@@ -44,5 +45,5 @@
     border: 1px solid rgb(255, 255, 255, 0.5);
     background: none;
     cursor: pointer;
-    margin: 30px 0;
+    margin: 50px 0;
 }

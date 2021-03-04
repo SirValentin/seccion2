@@ -24,9 +24,47 @@
     background-color: #3e3e3e;
     color: #f2f2f2;
     border-radius: 6px;
-    padding: 20px;
     word-wrap: break-word;
 }
 .p-header{
     padding: 30px;
 }
+.secciones{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+.tab1, .tab2{
+    background-color: #2C167A;
+    color: #f2f2f2;
+    margin: 0 3px 3px 0;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.tab1 h2, .tab2 h2{
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight:400;
+}
+.tab1{
+    border-radius: 6px 0 0 0;
+}
+.tab2{
+    border-radius: 0 6px 0 0;
+}
+.active-tab, .active-tab h2{
+    opacity: 1;
+    font-weight:bold;
+}
+.content {
+    display: none;
+  }
+  .active-content {
+    display: block;
+    max-width: 1280px;
+    height: 100vh;
+    margin: auto;
+    background-color: #a1a1a1;
+    
+  }
