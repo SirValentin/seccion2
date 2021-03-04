@@ -14,7 +14,7 @@ export const DataScreen = ({history}) => {
     const calc = new Date(fecha.getTime()-tresDiasEnMs);
     const param = `&start_date=${calc.getFullYear()}-${calc.getMonth() + 1}-${calc.getDay()}&end_date=${fecha.getFullYear()}-${fecha.getMonth() + 1}-${fecha.getDay()}`;
     const respuestaNasa = getNasa(param);
-
+    console.log(respuestaNasa);
     const toggleTab = (index) => {
         setToggleState(index);
     };

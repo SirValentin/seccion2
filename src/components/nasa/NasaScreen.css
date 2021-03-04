@@ -1,9 +1,12 @@
 .carr-nasa{
     width: 80%;
     height: 100%;
-    margin: auto;
-    padding: 70px 0;       
+    margin: auto;     
 }
 .carr-item{
     height: 100%;
+}
+.carousel-inner{
+    height: 100%;
+    padding: 70px 0;
 }
